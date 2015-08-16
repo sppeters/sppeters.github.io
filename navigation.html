@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+   <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hungry Leprechaun</title>
+		<link rel="stylesheet" href="css/themes/theme.min.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    	<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&sensor=false&language=en"> </script>
+        <script type="text/javascript" src="http://jquery-ui-map.googlecode.com/svn/trunk/ui/min/jquery.ui.map.min.js"></script>
+        <script type="text/javascript">
+
+            var chicago = new google.maps.LatLng(-37.847831, 145.114884),
+            mobileDemo = { 'center': '-37.847831, 145.114884', 'zoom': 17 };
+
+            function initialize() {
+                $('#map_canvas').gmap({ 'center': mobileDemo.center, 'zoom': mobileDemo.zoom, 'disableDefaultUI':false });
+            }
+
+            $(document).on("pageinit", "#basic-map", function() {
+                initialize();
+            });
+
+        </script>
+    </head>
+    <body>
+        <div id="basic-map" data-role="page">
+    		<header data-role="header"><a href="index.html" data-role="button" data-icon="carat-l">Back</a>
+        		<h1>Hungry Leprechaun</h1>
+    		</header>
+            <div data-role="content">   
+                <div class="ui-bar-c ui-corner-all ui-shadow" style="padding:1em;">
+                    <div id="map_canvas" style="height:350px;"></div>
+                </div>
+            </div>
+        </div>      
+    </body>
+</html>
