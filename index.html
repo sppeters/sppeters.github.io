@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hungry Leprechaun</title>
+	<link rel="stylesheet" href="css/themes/theme.min.css" />
+	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+    <body>
+    
+        <!-- begin index.html -->
+        <section id="page1" data-role="page" data-fullscreen="true">
+            <header data-role="header" data-position="fixed">
+                <h1>Hungry Leprechaun</h1>
+            </header>
+            <div data-role="content" class="content">
+            <br>
+            <center><img alt="leprechaun" src="images/leprechaun.png"></center>
+            <br>
+                <br>
+                    <nav data-role="navbar">
+                        <ul>
+                            <li>
+                                <a href="#menu" data-icon="grid" class="ui-btn-active">Menu</a>
+                            </li>
+                            <li>
+                                <a href="#recipes" data-icon="star">Recipes</a>
+                            </li>
+                            <li>
+                                <a href="navigation.html" data-icon="home">Navigation</a>
+                            </li>
+                            <li>
+                                <a href="feedback.html" data-icon="alert">Feedback</a>
+                            </li>
+                            <li>
+                                <a href="developer.html" data-icon="check">Developer</a>
+                            </li>
+                            <li>
+                                <a href="about.html" data-icon="info">About</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+            <!-- end first page -->
+            <!-- Begin menu page -->
+            <section id="menu" data-role="page" data-fullscreen="true">
+               <header data-role="header"><a href="#page1" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                            <a href="#entree" data-transition="slidedown">
+                                <img src="images/oysters.jpg"/>
+                                <h3> Entree's</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#mains"  data-transition="slidedown">
+                                <img src="images/pie.jpg"/>
+                                <h3> Mains</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#drinks"  data-transition="slidedown">
+                                <img src="images/guinness.jpg"/>
+                                <h3> Drinks</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#desserts"  data-transition="slidedown">
+                                <img src="images/coffeecake.jpg"/>
+                                <h3> Desserts</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end menu page -->
+            <!-- Begin entree page -->
+            <section id="entree" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#menu" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                            <a href="#entree1" data-transition="#">
+                                <img src="images/oysters.jpg"/>
+                                <h3> Oysters Kilpatrick</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#entree2" data-transition="#">
+                                <img src="images/wedges.jpg"/>
+                                <h3> Wedges</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+            <!-- end entree page -->
+            
+             <!-- Begin entree1 page -->
+            <section id="entree1" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#entree" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Oysters Kilpatrick</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/oysters.jpg"></center>
+					<br>
+                    <p>Oysters served with soya sauce, fried bacon and lemon</p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end entree1 page -->
+			<!-- Begin entree2 page -->
+            <section id="entree2" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#entree" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Wedges</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/wedges.jpg"></center>
+					<br>
+                    <p>Wedges served with sour cream</p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end entree2 page -->
+
+            <!-- Begin mains page -->
+            <section id="mains" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#menu" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                            <a href="#mains1" data-transition="#">
+                                <img src="images/shepherds.jpg"/>
+                                <h3> Shepherds Pie</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#mains2" data-transition="#">
+                                <img src="images/pie.jpg"/>
+                                <h3> Steak and Guinness Pie</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#mains3" data-transition="#">
+                                <img src="images/breakfast.jpg"/>
+                                <h3> Irish Breakfast</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+            <!-- end mains page -->
+            
+			<!-- Begin mains1 page -->
+            <section id="mains1" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#mains" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Shepherds Pie</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/shepherds.jpg"></center>
+					<br>
+                    <p>Shepherds Pie</p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end mains1 page -->
+			<!-- Begin mains2 page -->
+            <section id="mains2" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#mains" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Steak and Guinness Pie</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/pie.jpg"></center>
+					<br>
+                    <p>Steak and Guinness Pie</p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end mains2 page -->
+			<!-- Begin mains3 page -->
+            <section id="mains3" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#mains" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Big Irish Breakfast</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/breakfast.jpg"></center>
+					<br>
+                    <p>Sausages, eggs and bacon</p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end mains3 page -->
+
+            <!-- Begin drinks page -->
+            <section id="drinks" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#menu" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                            <a href="#drinks1" data-transition="#">
+                                <img src="images/cocacola.jpg"/>
+                                <h3> Coca Cola</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#drinks2" data-transition="#">
+                                <img src="images/guinness.jpg"/>
+                                <h3> Guinness</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#drinks3" data-transition="#">
+                                <img src="images/kilkenny.jpg"/>
+                                <h3> Kilkenny</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+            <!-- end drinks page -->
+			<!-- Begin drinks1 page -->
+            <section id="drinks1" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#drinks" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Coca Cola</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/cocacola.jpg"></center>
+					<br>
+                    <p>Coca Cola</p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end drinks1 page -->
+
+			<!-- Begin drinks2 page -->
+            <section id="drinks2" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#drinks" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Guinness</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/guinness.jpg"></center>
+					<br>
+                    <p>Guinness</p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end drinks2 page -->
+
+			<!-- Begin drinks3 page -->
+            <section id="drinks3" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#drinks" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Kilkenny</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/kilkenny.jpg"></center>
+					<br>
+                    <p>Kilkenny</p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end drinks3 page -->
+
+            <!-- Begin desserts page -->
+            <section id="desserts" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#menu" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                            <a href="#desserts1" data-transition="#">
+                                <img src="images/whiskeycake.jpg"/>
+                                <h3> Whiskey Cake</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#desserts2" data-transition="#">
+                                <img src="images/coffeecake.jpg"/>
+                                <h3> Coffee Cake</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+            <!-- end desserts page -->
+            
+			<!-- Begin desserts1 page -->
+            <section id="desserts1" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#desserts" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Whiskey Cake</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/whiskeycake.jpg"></center>
+					<br>
+                    <p>Whiskey Cake</p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end desserts1 page -->
+			<!-- Begin desserts2 page -->
+            <section id="desserts2" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#desserts" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Coffee Cake</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/coffeecake.jpg"></center>
+					<br>
+                    <p></p>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end desserts2 page -->
+            
+            
+			<!-- Begin recipes page -->
+            <section id="recipes" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="index.html" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                
+                	<center>
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                            <a href="#rec1" data-transition="#">
+                                <img src="images/oysters.jpg"/>
+                                <h3> Oysters Kilpatrick</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#rec2" data-transition="#">
+                                <img src="images/pie.jpg"/>
+                                <h3> Steak and Guinness Pie</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#rec3" data-transition="#">
+                                <img src="images/coffeecake.jpg"/>
+                                <h3> Coffee Cake</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end recipes page -->
+
+ 			<!-- Begin rec1 page -->
+            <section id="rec1" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#recipes" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Oysters Kilpatrick</h1></center>
+                	<br>
+                	<br>
+            			 <center><img src="images/oysters.jpg"></center>
+					<br>
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                                <h1> Ingredients</h1> 
+                        </li>
+                        <li>
+                                2 cups rock salt
+                        </li>
+                        <li>
+                                24 oysters, shucked
+                        </li>
+                        <li>
+                                2 tablespoons Worcestershire sauce
+                        </li>
+                        <li>
+                                175g thin rashers rindless bacon, diced
+                        </li>
+                        <li>
+                                2 tablespoons flat-leaf parsley leaves, chopped
+                        </li>
+                    </ul>
+                    
+                    <br>
+                    
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                                <h1> Method</h1> 
+                        </li>
+                        <li>
+                                Step 1. Preheat grill on medium-high heat. 
+                        </li>
+                        <li>
+                                Step 2. Place rock salt, in a thick layer, on a baking tray or heatproof plate. 
+                        </li>
+                        <li>
+                                Step 3. Arrange oysters (in their half-shells) on rock salt.
+                        </li>
+                        <li>
+                                Step 4. Sprinkle Worcestershire sauce over oysters. 
+                        </li>
+                        <li>
+                                Step 5. Top with bacon. Grill, on the salt, for 5 to 8 minutes or until bacon is crisp. 
+                        </li>
+                        <li>
+                                Step 6. Sprinkle with parsley. Serve with lemon.
+                        </li>
+                    </ul>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end rec1 page -->
+
+ 			<!-- Begin rec2 page -->
+            <section id="rec2" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#recipes" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Steak and Guinness Pie</h1></center>
+                	<br>
+                	<br>
+            			<center><img src="images/pie.jpg"></center>
+					<br>
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                                <h1> Ingredients</h1> 
+                        </li>
+                        <li>
+                                2 kg diced chuck steak
+                        </li>
+                        <li>
+                                3 sliced onions
+                        </li>
+                        <li>
+                                4 crushed cloves garlic
+                        </li>
+                        <li>
+                                1 tablespoon oil
+                        </li>
+                        <li>
+                                2/3 cup plain flour
+                        </li>
+                        <li>
+                                400ml Guinness
+                        </li>
+                        <li>
+                                2 cups Campbell's Real Stock Beef
+                        </li>
+                        <li>
+                                Ready-rolled puff pastry
+                        </li>
+                        <li>
+                                1 beaten egg
+                        </li>
+                    </ul>
+                
+                    <br>
+                    
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                                <h1> Method</h1> 
+                        </li>
+                        <li>
+                                Step 1. Brown 2kg diced chuck steak in hot oil. Set aside. 
+                        </li>
+                        <li>
+                                Step 2. Cook 3 sliced onions and 4 crushed cloves garlic in 1 tablespoon oil until golden. 
+                        </li>
+                        <li>
+                                Step 3. Sprinkle in 2/3 cup plain flour and cook for 1 min.
+                        </li>
+                        <li>
+                                Step 4. Return meant and juices to pan, add 400ml Guinness and 2 cups beef stock. Bring to the boil. Reduce heat, simmer for 2 hours until tender and sauce has thickened. 
+                        </li>
+                        <li>
+                                Step 5. Preheat oven to 200°C. Spoon beef mixture into eight 250ml ovenproof ramekins.  
+                        </li>
+                        <li>
+                                Step 6. Cut out eight circles of ready-rolled puff pastry to cover. Press firmly onto dishes and seal. Brush with 1 beaten egg, place on a tray and bake for 25 minutes until golden. Freeze uncooked pies, wrapped in plastic then foil. Defrost before cooking.
+                        </li>
+                    </ul>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end rec2 page -->
+
+			<!-- Begin rec3 page -->
+            <section id="rec3" data-role="page" data-fullscreen="true">
+                <header data-role="header"><a href="#recipes" data-role="button" data-icon="carat-l">Back</a>
+                    <h1>Hungry Leprechaun</h1>
+                </header>
+                <div data-role="content" class="content">
+                    <br>
+                	<center><h1> Coffee Cake</h1></center>
+                	<br>
+                	<br>
+            			<center><img src="images/coffeecake.jpg"></center>
+					<br>
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                                <h1> Ingredients</h1> 
+                        </li>
+                        <li>
+                                150g caster sugar
+                        </li>
+                        <li>
+                                150g butter or margarine
+                        </li>
+                        <li>
+                                3 eggs
+                        </li>
+                        <li>
+                                150g self raising flour
+                        </li>
+                        <li>
+                                1 1/2 tsp baking powder
+                        </li>
+                        <li>
+                                1 tbsp hot water
+                        </li>
+                        <li>
+                                1 tbsp instant coffee (add more if you like it strong)
+                        </li>
+                        <li>
+                                225g icing sugar
+                        </li>
+                        <li>
+                                100g butter or margarine
+                        </li>
+                        <li>
+                                1 1/2 tbsp instant coffee
+                        </li>
+                        <li>
+                                1 tbsp hot water
+                        </li>
+                        <li>
+                                Chocolate Sauce (Optional)
+                        </li>
+                    </ul>
+                
+                    <br>
+                    
+                                        
+                    <ul data-role="listview" data-inset="true" >
+                        <li>
+                                <h1> Method</h1> 
+                        </li>
+                        <li>
+                                Step 1. Preheat the oven at 160C, 325 F,gas 3.Baseline and grease two equally sized sandwich tins. Add the sugar and the butter to a bowl and whisk until very fluffy and a pale cream.
+                        </li>
+                        <li>
+                                Step 2. Wisk the eggs in a mug with a fork and then add them gradually to the mixture with 1 tbsp of flour each time. Make sure you don't use all the flour.
+                        </li>
+                        <li>
+                                Step 3. Add the rest of the flour and the baking powder to the mixture and fold it in gently.
+                        </li>
+                        <li>
+                                Step 4. Dissolve the coffee in the boiling water and add to the mixture still folding. Divide into the sandwich tins and cook for 30 minutes
+                        </li>
+                        <li>
+                                Step 5. Meanwhile Cream the butter and the icing sugar until light and fluffy. Dissolve the coffee in boiling water, making sure you don't add too much water or the icing will be runny and add it to the butter and icing sugar. Whisk and leave in the fridge until the cake is done.
+                        </li>
+                        <li>
+                                Step 6. Once the cakes are done and have been put onto plates spread the icing on the bottom of one of the cakes (leaving around half of the icing for the top) and spread the strawberry jam ont the bottom of the other. Spread the remainig icing ontop of the cake. decorate with cherries or walnuts. ENJOY!
+                        </li>
+                    </ul>
+                </div>
+                <footer data-role="footer" data-position="fixed">
+                    <h1>Sean Peters 213099105</h1>
+                </footer>
+            </section>
+			<!-- end rec3 page -->            
+            
+            
+            
+            
+        </body>
+    </html>
